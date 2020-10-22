@@ -1,0 +1,1488 @@
+{
+    "incidents": [
+        {
+            "id": 35,
+            "name": "Internal tools down",
+            "incidentStatusId": "DECLARED",
+            "impact": null,
+            "summary": null,
+            "duration": 187365,
+            "resolution": null,
+            "channelId": "C017MT94PNG",
+            "channelName": "-incident-20200721-internal-tools-down",
+            "channelPrivate": false,
+            "identifiedOn": null,
+            "mitigatedOn": null,
+            "resolvedOn": null,
+            "createdOn": "2020-08-21T13:05:55Z",
+            "workspace": {
+                "id": 1,
+                "name": "Intel",
+                "teamId": "T014YSGR936",
+                "appId": "A014TU1UJ94"
+            },
+            "severity": null,
+            "participants": [
+                {
+                    "user": {
+                        "id": "06987541-37f6-44d8-94c8-5ebae3cf7146",
+                        "realName": "Andy Grove",
+                        "avatarUrl": "https://secure.gravatar.com/avatar/e06a54a76548d8c35a2c52c7977417e8.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0026-72.png",
+                        "chatUserId": "U016YQCRDAB"
+                    },
+                    "role": {
+                        "id": 1,
+                        "name": "Incident Commander",
+                        "description": "The primary decision maker for the incident, listening to hypotheses and data presented by participants and delegating actions."
+                    }
+                },
+                {
+                    "user": {
+                        "id": "e991194b-3bc6-43f2-84dd-50819b3f4c4d",
+                        "realName": "Gordon Moore",
+                        "avatarUrl": "https://secure.gravatar.com/avatar/476be6a12a76114699ceeedc6475370f.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0023-72.png",
+                        "chatUserId": "U014RA28GRK"
+                    },
+                    "role": {
+                        "id": 2,
+                        "name": "Communications Lead",
+                        "description": "The core communicator for the incident, conveying status, updates, and technical details to stakeholders, support personnel, and/or customers."
+                    }
+                }
+            ]
+        },
+        {
+            "id": 34,
+            "name": "Customers having intermittent issues adding items to cart",
+            "incidentStatusId": "DECLARED",
+            "impact": null,
+            "summary": null,
+            "duration": 187422,
+            "resolution": null,
+            "channelId": "G0185H1N1R6",
+            "channelName": "-incident-20200721-customers-having-intermittent",
+            "channelPrivate": true,
+            "identifiedOn": null,
+            "mitigatedOn": null,
+            "resolvedOn": null,
+            "createdOn": "2020-08-21T13:04:58Z",
+            "workspace": {
+                "id": 1,
+                "name": "Intel",
+                "teamId": "T014YSGR936",
+                "appId": "A014TU1UJ94"
+            },
+            "severity": {
+                "id": 3,
+                "name": "SEV-2",
+                "emoji": ":two:",
+                "description": "Service or tool outage or degradation that impacts employees, vendors, partners, or other internal stakeholders.",
+                "sortOrder": 2
+            },
+            "participants": [
+                {
+                    "user": {
+                        "id": "06987541-37f6-44d8-94c8-5ebae3cf7146",
+                        "realName": "Andy Grove",
+                        "avatarUrl": "https://secure.gravatar.com/avatar/e06a54a76548d8c35a2c52c7977417e8.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0026-72.png",
+                        "chatUserId": "U016YQCRDAB"
+                    },
+                    "role": {
+                        "id": 1,
+                        "name": "Incident Commander",
+                        "description": "The primary decision maker for the incident, listening to hypotheses and data presented by participants and delegating actions."
+                    }
+                },
+                {
+                    "user": {
+                        "id": "e991194b-3bc6-43f2-84dd-50819b3f4c4d",
+                        "realName": "Gordon Moore",
+                        "avatarUrl": "https://secure.gravatar.com/avatar/476be6a12a76114699ceeedc6475370f.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0023-72.png",
+                        "chatUserId": "U014RA28GRK"
+                    },
+                    "role": null
+                }
+            ]
+        },
+        {
+            "id": 33,
+            "name": "Incident with private room",
+            "incidentStatusId": "RESOLVED",
+            "impact": null,
+            "summary": null,
+            "duration": 9725,
+            "resolution": null,
+            "channelId": "G017DQCKZT5",
+            "channelName": "-incident-20200720-incident-with-private-room",
+            "channelPrivate": false,
+            "identifiedOn": null,
+            "mitigatedOn": null,
+            "resolvedOn": "2020-08-20T17:56:56Z",
+            "createdOn": "2020-08-20T15:14:51Z",
+            "workspace": {
+                "id": 1,
+                "name": "Intel",
+                "teamId": "T014YSGR936",
+                "appId": "A014TU1UJ94"
+            },
+            "severity": null,
+            "participants": [
+                {
+                    "user": {
+                        "id": "06987541-37f6-44d8-94c8-5ebae3cf7146",
+                        "realName": "Andy Grove",
+                        "avatarUrl": "https://secure.gravatar.com/avatar/e06a54a76548d8c35a2c52c7977417e8.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0026-72.png",
+                        "chatUserId": "U016YQCRDAB"
+                    },
+                    "role": {
+                        "id": 2,
+                        "name": "Communications Lead",
+                        "description": "The core communicator for the incident, conveying status, updates, and technical details to stakeholders, support personnel, and/or customers."
+                    }
+                },
+                {
+                    "user": {
+                        "id": "e991194b-3bc6-43f2-84dd-50819b3f4c4d",
+                        "realName": "Gordon Moore",
+                        "avatarUrl": "https://secure.gravatar.com/avatar/476be6a12a76114699ceeedc6475370f.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0023-72.png",
+                        "chatUserId": "U014RA28GRK"
+                    },
+                    "role": null
+                }
+            ]
+        },
+        {
+            "id": 32,
+            "name": "Engineers can't access GitHub",
+            "incidentStatusId": "DECLARED",
+            "impact": null,
+            "summary": null,
+            "duration": 266054,
+            "resolution": null,
+            "channelId": "C017S783TMF",
+            "channelName": "-incident-20200720-engineers-cant-access-github",
+            "channelPrivate": false,
+            "identifiedOn": null,
+            "mitigatedOn": null,
+            "resolvedOn": null,
+            "createdOn": "2020-08-20T15:14:26Z",
+            "workspace": {
+                "id": 1,
+                "name": "Intel",
+                "teamId": "T014YSGR936",
+                "appId": "A014TU1UJ94"
+            },
+            "severity": null,
+            "participants": [
+                {
+                    "user": {
+                        "id": "06987541-37f6-44d8-94c8-5ebae3cf7146",
+                        "realName": "Andy Grove",
+                        "avatarUrl": "https://secure.gravatar.com/avatar/e06a54a76548d8c35a2c52c7977417e8.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0026-72.png",
+                        "chatUserId": "U016YQCRDAB"
+                    },
+                    "role": null
+                },
+                {
+                    "user": {
+                        "id": "e991194b-3bc6-43f2-84dd-50819b3f4c4d",
+                        "realName": "Gordon Moore",
+                        "avatarUrl": "https://secure.gravatar.com/avatar/476be6a12a76114699ceeedc6475370f.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0023-72.png",
+                        "chatUserId": "U014RA28GRK"
+                    },
+                    "role": null
+                }
+            ]
+        },
+        {
+            "id": 31,
+            "name": "High CPU usage on core DB",
+            "incidentStatusId": "DECLARED",
+            "impact": null,
+            "summary": null,
+            "duration": 270409,
+            "resolution": null,
+            "channelId": "G016YL0D1T9",
+            "channelName": "-incident-20200720-high-cpu-usage-on-core-db",
+            "channelPrivate": true,
+            "identifiedOn": null,
+            "mitigatedOn": null,
+            "resolvedOn": null,
+            "createdOn": "2020-08-20T14:01:51Z",
+            "workspace": {
+                "id": 1,
+                "name": "Intel",
+                "teamId": "T014YSGR936",
+                "appId": "A014TU1UJ94"
+            },
+            "severity": null,
+            "participants": [
+                {
+                    "user": {
+                        "id": "06987541-37f6-44d8-94c8-5ebae3cf7146",
+                        "realName": "Andy Grove",
+                        "avatarUrl": "https://secure.gravatar.com/avatar/e06a54a76548d8c35a2c52c7977417e8.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0026-72.png",
+                        "chatUserId": "U016YQCRDAB"
+                    },
+                    "role": null
+                },
+                {
+                    "user": {
+                        "id": "e991194b-3bc6-43f2-84dd-50819b3f4c4d",
+                        "realName": "Gordon Moore",
+                        "avatarUrl": "https://secure.gravatar.com/avatar/476be6a12a76114699ceeedc6475370f.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0023-72.png",
+                        "chatUserId": "U014RA28GRK"
+                    },
+                    "role": {
+                        "id": 1,
+                        "name": "Incident Commander",
+                        "description": "The primary decision maker for the incident, listening to hypotheses and data presented by participants and delegating actions."
+                    }
+                }
+            ]
+        },
+        {
+            "id": 30,
+            "name": "The break room is out of cheetos",
+            "incidentStatusId": "DECLARED",
+            "impact": null,
+            "summary": null,
+            "duration": 270425,
+            "resolution": null,
+            "channelId": "C017DJFS6E7",
+            "channelName": "-incident-20200720-the-break-room-is-out-of-cheetos",
+            "channelPrivate": false,
+            "identifiedOn": null,
+            "mitigatedOn": null,
+            "resolvedOn": null,
+            "createdOn": "2020-08-20T14:01:35Z",
+            "workspace": {
+                "id": 1,
+                "name": "Intel",
+                "teamId": "T014YSGR936",
+                "appId": "A014TU1UJ94"
+            },
+            "severity": null,
+            "participants": [
+                {
+                    "user": {
+                        "id": "06987541-37f6-44d8-94c8-5ebae3cf7146",
+                        "realName": "Andy Grove",
+                        "avatarUrl": "https://secure.gravatar.com/avatar/e06a54a76548d8c35a2c52c7977417e8.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0026-72.png",
+                        "chatUserId": "U016YQCRDAB"
+                    },
+                    "role": {
+                        "id": 3,
+                        "name": "Participant",
+                        "description": "Team member available to investigate, carry-out actions delegated by the Incident Commander, and actively work towards incident mitigation."
+                    }
+                },
+                {
+                    "user": {
+                        "id": "e991194b-3bc6-43f2-84dd-50819b3f4c4d",
+                        "realName": "Gordon Moore",
+                        "avatarUrl": "https://secure.gravatar.com/avatar/476be6a12a76114699ceeedc6475370f.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0023-72.png",
+                        "chatUserId": "U014RA28GRK"
+                    },
+                    "role": null
+                }
+            ]
+        },
+        {
+            "id": 29,
+            "name": "Redis instance not responding",
+            "incidentStatusId": "DECLARED",
+            "impact": null,
+            "summary": null,
+            "duration": 270512,
+            "resolution": null,
+            "channelId": "C016YKU7JUX",
+            "channelName": "-incident-20200720-redis-instance-not-responding",
+            "channelPrivate": false,
+            "identifiedOn": null,
+            "mitigatedOn": null,
+            "resolvedOn": null,
+            "createdOn": "2020-08-20T14:00:08Z",
+            "workspace": {
+                "id": 1,
+                "name": "Intel",
+                "teamId": "T014YSGR936",
+                "appId": "A014TU1UJ94"
+            },
+            "severity": null,
+            "participants": []
+        },
+        {
+            "id": 28,
+            "name": "Payments are halted",
+            "incidentStatusId": "RESOLVED",
+            "impact": null,
+            "summary": null,
+            "duration": 315,
+            "resolution": null,
+            "channelId": "G017H0N6NEQ",
+            "channelName": "-incident-20200717-payments-are-halted",
+            "channelPrivate": false,
+            "identifiedOn": null,
+            "mitigatedOn": null,
+            "resolvedOn": "2020-08-17T21:21:44Z",
+            "createdOn": "2020-08-17T21:16:29Z",
+            "workspace": {
+                "id": 1,
+                "name": "Intel",
+                "teamId": "T014YSGR936",
+                "appId": "A014TU1UJ94"
+            },
+            "severity": {
+                "id": 2,
+                "name": "SEV-1",
+                "emoji": ":one:",
+                "description": "Service outage or degradation that impacts customers.",
+                "sortOrder": 1
+            },
+            "participants": [
+                {
+                    "user": {
+                        "id": "e991194b-3bc6-43f2-84dd-50819b3f4c4d",
+                        "realName": "Gordon Moore",
+                        "avatarUrl": "https://secure.gravatar.com/avatar/476be6a12a76114699ceeedc6475370f.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0023-72.png",
+                        "chatUserId": "U014RA28GRK"
+                    },
+                    "role": {
+                        "id": 1,
+                        "name": "Incident Commander",
+                        "description": "The primary decision maker for the incident, listening to hypotheses and data presented by participants and delegating actions."
+                    }
+                }
+            ]
+        },
+        {
+            "id": 27,
+            "name": "RabbitMQ cluster topic queue has high error count",
+            "incidentStatusId": "RESOLVED",
+            "impact": null,
+            "summary": null,
+            "duration": 503632,
+            "resolution": null,
+            "channelId": "G017PDGGRGR",
+            "channelName": "-incident-20200717-rabbitmq-cluster-topic-has-high",
+            "channelPrivate": true,
+            "identifiedOn": null,
+            "mitigatedOn": null,
+            "resolvedOn": null,
+            "createdOn": "2020-08-17T21:14:48Z",
+            "workspace": {
+                "id": 1,
+                "name": "Intel",
+                "teamId": "T014YSGR936",
+                "appId": "A014TU1UJ94"
+            },
+            "severity": null,
+            "participants": [
+                {
+                    "user": {
+                        "id": "e991194b-3bc6-43f2-84dd-50819b3f4c4d",
+                        "realName": "Gordon Moore",
+                        "avatarUrl": "https://secure.gravatar.com/avatar/476be6a12a76114699ceeedc6475370f.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0023-72.png",
+                        "chatUserId": "U014RA28GRK"
+                    },
+                    "role": null
+                }
+            ]
+        },
+        {
+            "id": 26,
+            "name": "DB backups not recorded for past 2 weeks",
+            "incidentStatusId": "RESOLVED",
+            "impact": null,
+            "summary": null,
+            "duration": 700677,
+            "resolution": null,
+            "channelId": "G017UP07WV6",
+            "channelName": "-incident-20200715-db-backups-not-recorded-for-past-2-weeks",
+            "channelPrivate": true,
+            "identifiedOn": null,
+            "mitigatedOn": null,
+            "resolvedOn": null,
+            "createdOn": "2020-08-15T14:30:43Z",
+            "workspace": {
+                "id": 1,
+                "name": "Intel",
+                "teamId": "T014YSGR936",
+                "appId": "A014TU1UJ94"
+            },
+            "severity": null,
+            "participants": [
+                {
+                    "user": {
+                        "id": "e991194b-3bc6-43f2-84dd-50819b3f4c4d",
+                        "realName": "Gordon Moore",
+                        "avatarUrl": "https://secure.gravatar.com/avatar/476be6a12a76114699ceeedc6475370f.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0023-72.png",
+                        "chatUserId": "U014RA28GRK"
+                    },
+                    "role": {
+                        "id": 2,
+                        "name": "Communications Lead",
+                        "description": "The core communicator for the incident, conveying status, updates, and technical details to stakeholders, support personnel, and/or customers."
+                    }
+                }
+            ]
+        },
+        {
+            "id": 25,
+            "name": "DB Down",
+            "incidentStatusId": "RESOLVED",
+            "impact": null,
+            "summary": null,
+            "duration": 52,
+            "resolution": null,
+            "channelId": "C0165PQ768P",
+            "channelName": "-incident-20200706-db-down",
+            "channelPrivate": false,
+            "identifiedOn": "2020-08-06T14:22:26Z",
+            "mitigatedOn": null,
+            "resolvedOn": "2020-08-06T14:22:40Z",
+            "createdOn": "2020-08-06T14:21:48Z",
+            "workspace": {
+                "id": 1,
+                "name": "Intel",
+                "teamId": "T014YSGR936",
+                "appId": "A014TU1UJ94"
+            },
+            "severity": {
+                "id": 2,
+                "name": "SEV-1",
+                "emoji": ":one:",
+                "description": "Service outage or degradation that impacts customers.",
+                "sortOrder": 1
+            },
+            "participants": [
+                {
+                    "user": {
+                        "id": "e991194b-3bc6-43f2-84dd-50819b3f4c4d",
+                        "realName": "Gordon Moore",
+                        "avatarUrl": "https://secure.gravatar.com/avatar/476be6a12a76114699ceeedc6475370f.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0023-72.png",
+                        "chatUserId": "U014RA28GRK"
+                    },
+                    "role": {
+                        "id": 1,
+                        "name": "Incident Commander",
+                        "description": "The primary decision maker for the incident, listening to hypotheses and data presented by participants and delegating actions."
+                    }
+                }
+            ]
+        },
+        {
+            "id": 24,
+            "name": "Automated test incident 9QUDNS",
+            "incidentStatusId": "RESOLVED",
+            "impact": null,
+            "summary": null,
+            "duration": 2049781,
+            "resolution": null,
+            "channelId": "C016B8PKNP6",
+            "channelName": "-incident-20200626-automated-test-incident-9qudns",
+            "channelPrivate": false,
+            "identifiedOn": null,
+            "mitigatedOn": null,
+            "resolvedOn": "2020-08-20T13:45:12Z",
+            "createdOn": "2020-07-26T20:22:11Z",
+            "workspace": {
+                "id": 1,
+                "name": "Intel",
+                "teamId": "T014YSGR936",
+                "appId": "A014TU1UJ94"
+            },
+            "severity": {
+                "id": 2,
+                "name": "SEV-1",
+                "emoji": ":one:",
+                "description": "Service outage or degradation that impacts customers.",
+                "sortOrder": 1
+            },
+            "participants": [
+                {
+                    "user": {
+                        "id": "e991194b-3bc6-43f2-84dd-50819b3f4c4d",
+                        "realName": "Gordon Moore",
+                        "avatarUrl": "https://secure.gravatar.com/avatar/476be6a12a76114699ceeedc6475370f.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0023-72.png",
+                        "chatUserId": "U014RA28GRK"
+                    },
+                    "role": {
+                        "id": 1,
+                        "name": "Incident Commander",
+                        "description": "The primary decision maker for the incident, listening to hypotheses and data presented by participants and delegating actions."
+                    }
+                }
+            ]
+        },
+        {
+            "id": 23,
+            "name": "Automated test incident 3WLWY8",
+            "incidentStatusId": "RESOLVED",
+            "impact": null,
+            "summary": null,
+            "duration": 5,
+            "resolution": null,
+            "channelId": "C01659HFWCT",
+            "channelName": "-incident-20200626-automated-test-incident-3wlwy8",
+            "channelPrivate": false,
+            "identifiedOn": null,
+            "mitigatedOn": null,
+            "resolvedOn": "2020-07-26T20:22:03Z",
+            "createdOn": "2020-07-26T20:21:58Z",
+            "workspace": {
+                "id": 1,
+                "name": "Intel",
+                "teamId": "T014YSGR936",
+                "appId": "A014TU1UJ94"
+            },
+            "severity": {
+                "id": 2,
+                "name": "SEV-1",
+                "emoji": ":one:",
+                "description": "Service outage or degradation that impacts customers.",
+                "sortOrder": 1
+            },
+            "participants": [
+                {
+                    "user": {
+                        "id": "e991194b-3bc6-43f2-84dd-50819b3f4c4d",
+                        "realName": "Gordon Moore",
+                        "avatarUrl": "https://secure.gravatar.com/avatar/476be6a12a76114699ceeedc6475370f.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0023-72.png",
+                        "chatUserId": "U014RA28GRK"
+                    },
+                    "role": null
+                }
+            ]
+        },
+        {
+            "id": 22,
+            "name": "Automated test incident 64LVFQ",
+            "incidentStatusId": "RESOLVED",
+            "impact": null,
+            "summary": null,
+            "duration": 2049815,
+            "resolution": null,
+            "channelId": "C01659H3Y83",
+            "channelName": "-incident-20200626-automated-test-incident-64lvfq",
+            "channelPrivate": false,
+            "identifiedOn": null,
+            "mitigatedOn": null,
+            "resolvedOn": "2020-08-20T13:45:20Z",
+            "createdOn": "2020-07-26T20:21:45Z",
+            "workspace": {
+                "id": 1,
+                "name": "Intel",
+                "teamId": "T014YSGR936",
+                "appId": "A014TU1UJ94"
+            },
+            "severity": {
+                "id": 2,
+                "name": "SEV-1",
+                "emoji": ":one:",
+                "description": "Service outage or degradation that impacts customers.",
+                "sortOrder": 1
+            },
+            "participants": [
+                {
+                    "user": {
+                        "id": "e991194b-3bc6-43f2-84dd-50819b3f4c4d",
+                        "realName": "Gordon Moore",
+                        "avatarUrl": "https://secure.gravatar.com/avatar/476be6a12a76114699ceeedc6475370f.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0023-72.png",
+                        "chatUserId": "U014RA28GRK"
+                    },
+                    "role": {
+                        "id": 1,
+                        "name": "Incident Commander",
+                        "description": "The primary decision maker for the incident, listening to hypotheses and data presented by participants and delegating actions."
+                    }
+                }
+            ]
+        },
+        {
+            "id": 21,
+            "name": "Automated test incident BFI09D",
+            "incidentStatusId": "RESOLVED",
+            "impact": null,
+            "summary": null,
+            "duration": 2321228,
+            "resolution": null,
+            "channelId": "C016UTYERNU",
+            "channelName": "-incident-20200626-automated-test-incident-bfi09d",
+            "channelPrivate": false,
+            "identifiedOn": null,
+            "mitigatedOn": null,
+            "resolvedOn": null,
+            "createdOn": "2020-07-26T20:21:32Z",
+            "workspace": {
+                "id": 1,
+                "name": "Intel",
+                "teamId": "T014YSGR936",
+                "appId": "A014TU1UJ94"
+            },
+            "severity": {
+                "id": 2,
+                "name": "SEV-1",
+                "emoji": ":one:",
+                "description": "Service outage or degradation that impacts customers.",
+                "sortOrder": 1
+            },
+            "participants": [
+                {
+                    "user": {
+                        "id": "e991194b-3bc6-43f2-84dd-50819b3f4c4d",
+                        "realName": "Gordon Moore",
+                        "avatarUrl": "https://secure.gravatar.com/avatar/476be6a12a76114699ceeedc6475370f.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0023-72.png",
+                        "chatUserId": "U014RA28GRK"
+                    },
+                    "role": {
+                        "id": 1,
+                        "name": "Incident Commander",
+                        "description": "The primary decision maker for the incident, listening to hypotheses and data presented by participants and delegating actions."
+                    }
+                }
+            ]
+        },
+        {
+            "id": 20,
+            "name": "Automated test incident 84B3GC (Edited)",
+            "incidentStatusId": "RESOLVED",
+            "impact": null,
+            "summary": null,
+            "duration": 2321242,
+            "resolution": null,
+            "channelId": "C01653BSPJ6",
+            "channelName": "-incident-20200626-automated-test-incident-84b3gc",
+            "channelPrivate": false,
+            "identifiedOn": null,
+            "mitigatedOn": null,
+            "resolvedOn": null,
+            "createdOn": "2020-07-26T20:21:18Z",
+            "workspace": {
+                "id": 1,
+                "name": "Intel",
+                "teamId": "T014YSGR936",
+                "appId": "A014TU1UJ94"
+            },
+            "severity": {
+                "id": 2,
+                "name": "SEV-1",
+                "emoji": ":one:",
+                "description": "Service outage or degradation that impacts customers.",
+                "sortOrder": 1
+            },
+            "participants": [
+                {
+                    "user": {
+                        "id": "e991194b-3bc6-43f2-84dd-50819b3f4c4d",
+                        "realName": "Gordon Moore",
+                        "avatarUrl": "https://secure.gravatar.com/avatar/476be6a12a76114699ceeedc6475370f.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0023-72.png",
+                        "chatUserId": "U014RA28GRK"
+                    },
+                    "role": null
+                }
+            ]
+        },
+        {
+            "id": 19,
+            "name": "Automated test incident NNRBI",
+            "incidentStatusId": "RESOLVED",
+            "impact": null,
+            "summary": null,
+            "duration": 2321261,
+            "resolution": null,
+            "channelId": "C015QAWQKK9",
+            "channelName": "-incident-20200626-automated-test-incident-nnrbi",
+            "channelPrivate": false,
+            "identifiedOn": null,
+            "mitigatedOn": null,
+            "resolvedOn": null,
+            "createdOn": "2020-07-26T20:20:59Z",
+            "workspace": {
+                "id": 1,
+                "name": "Intel",
+                "teamId": "T014YSGR936",
+                "appId": "A014TU1UJ94"
+            },
+            "severity": {
+                "id": 2,
+                "name": "SEV-1",
+                "emoji": ":one:",
+                "description": "Service outage or degradation that impacts customers.",
+                "sortOrder": 1
+            },
+            "participants": [
+                {
+                    "user": {
+                        "id": "e991194b-3bc6-43f2-84dd-50819b3f4c4d",
+                        "realName": "Gordon Moore",
+                        "avatarUrl": "https://secure.gravatar.com/avatar/476be6a12a76114699ceeedc6475370f.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0023-72.png",
+                        "chatUserId": "U014RA28GRK"
+                    },
+                    "role": null
+                }
+            ]
+        },
+        {
+            "id": 18,
+            "name": "Automated test incident EF235S",
+            "incidentStatusId": "RESOLVED",
+            "impact": null,
+            "summary": null,
+            "duration": 2321276,
+            "resolution": null,
+            "channelId": "C016HMP5L0H",
+            "channelName": "-incident-20200626-automated-test-incident-ef235s",
+            "channelPrivate": false,
+            "identifiedOn": null,
+            "mitigatedOn": null,
+            "resolvedOn": null,
+            "createdOn": "2020-07-26T20:20:44Z",
+            "workspace": {
+                "id": 1,
+                "name": "Intel",
+                "teamId": "T014YSGR936",
+                "appId": "A014TU1UJ94"
+            },
+            "severity": {
+                "id": 2,
+                "name": "SEV-1",
+                "emoji": ":one:",
+                "description": "Service outage or degradation that impacts customers.",
+                "sortOrder": 1
+            },
+            "participants": [
+                {
+                    "user": {
+                        "id": "e991194b-3bc6-43f2-84dd-50819b3f4c4d",
+                        "realName": "Gordon Moore",
+                        "avatarUrl": "https://secure.gravatar.com/avatar/476be6a12a76114699ceeedc6475370f.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0023-72.png",
+                        "chatUserId": "U014RA28GRK"
+                    },
+                    "role": {
+                        "id": 4,
+                        "name": "Watcher",
+                        "description": "Team member with knowledge or guidance that might contribute to resolution, but is not available to actively investigate or carry-out mitigative actions."
+                    }
+                }
+            ]
+        },
+        {
+            "id": 17,
+            "name": "Automated test incident AREBAA",
+            "incidentStatusId": "RESOLVED",
+            "impact": null,
+            "summary": null,
+            "duration": 2321293,
+            "resolution": null,
+            "channelId": "C015YB5P1B8",
+            "channelName": "-incident-20200626-automated-test-incident-arebaa",
+            "channelPrivate": false,
+            "identifiedOn": null,
+            "mitigatedOn": null,
+            "resolvedOn": null,
+            "createdOn": "2020-07-26T20:20:27Z",
+            "workspace": {
+                "id": 1,
+                "name": "Intel",
+                "teamId": "T014YSGR936",
+                "appId": "A014TU1UJ94"
+            },
+            "severity": {
+                "id": 2,
+                "name": "SEV-1",
+                "emoji": ":one:",
+                "description": "Service outage or degradation that impacts customers.",
+                "sortOrder": 1
+            },
+            "participants": [
+                {
+                    "user": {
+                        "id": "e991194b-3bc6-43f2-84dd-50819b3f4c4d",
+                        "realName": "Gordon Moore",
+                        "avatarUrl": "https://secure.gravatar.com/avatar/476be6a12a76114699ceeedc6475370f.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0023-72.png",
+                        "chatUserId": "U014RA28GRK"
+                    },
+                    "role": {
+                        "id": 1,
+                        "name": "Incident Commander",
+                        "description": "The primary decision maker for the incident, listening to hypotheses and data presented by participants and delegating actions."
+                    }
+                }
+            ]
+        },
+        {
+            "id": 16,
+            "name": "Automated test incident P1CUH",
+            "incidentStatusId": "RESOLVED",
+            "impact": null,
+            "summary": null,
+            "duration": 2050686,
+            "resolution": null,
+            "channelId": "C0163J921J9",
+            "channelName": "-incident-20200626-automated-test-incident-p1cuh",
+            "channelPrivate": false,
+            "identifiedOn": null,
+            "mitigatedOn": null,
+            "resolvedOn": "2020-08-20T13:00:41Z",
+            "createdOn": "2020-07-26T19:22:35Z",
+            "workspace": {
+                "id": 1,
+                "name": "Intel",
+                "teamId": "T014YSGR936",
+                "appId": "A014TU1UJ94"
+            },
+            "severity": {
+                "id": 2,
+                "name": "SEV-1",
+                "emoji": ":one:",
+                "description": "Service outage or degradation that impacts customers.",
+                "sortOrder": 1
+            },
+            "participants": [
+                {
+                    "user": {
+                        "id": "e991194b-3bc6-43f2-84dd-50819b3f4c4d",
+                        "realName": "Gordon Moore",
+                        "avatarUrl": "https://secure.gravatar.com/avatar/476be6a12a76114699ceeedc6475370f.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0023-72.png",
+                        "chatUserId": "U014RA28GRK"
+                    },
+                    "role": null
+                }
+            ]
+        },
+        {
+            "id": 15,
+            "name": "Automated test incident B6M65P",
+            "incidentStatusId": "RESOLVED",
+            "impact": null,
+            "summary": null,
+            "duration": 5,
+            "resolution": null,
+            "channelId": "C016HJB7Y1F",
+            "channelName": "-incident-20200626-automated-test-incident-b6m65p",
+            "channelPrivate": false,
+            "identifiedOn": null,
+            "mitigatedOn": null,
+            "resolvedOn": "2020-07-26T19:22:27Z",
+            "createdOn": "2020-07-26T19:22:22Z",
+            "workspace": {
+                "id": 1,
+                "name": "Intel",
+                "teamId": "T014YSGR936",
+                "appId": "A014TU1UJ94"
+            },
+            "severity": {
+                "id": 2,
+                "name": "SEV-1",
+                "emoji": ":one:",
+                "description": "Service outage or degradation that impacts customers.",
+                "sortOrder": 1
+            },
+            "participants": [
+                {
+                    "user": {
+                        "id": "e991194b-3bc6-43f2-84dd-50819b3f4c4d",
+                        "realName": "Gordon Moore",
+                        "avatarUrl": "https://secure.gravatar.com/avatar/476be6a12a76114699ceeedc6475370f.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0023-72.png",
+                        "chatUserId": "U014RA28GRK"
+                    },
+                    "role": null
+                }
+            ]
+        },
+        {
+            "id": 14,
+            "name": "Automated test incident B3KUXI",
+            "incidentStatusId": "RESOLVED",
+            "impact": null,
+            "summary": null,
+            "duration": 2052016,
+            "resolution": null,
+            "channelId": "C016HJASFS5",
+            "channelName": "-incident-20200626-automated-test-incident-b3kuxi",
+            "channelPrivate": false,
+            "identifiedOn": null,
+            "mitigatedOn": null,
+            "resolvedOn": "2020-08-20T13:22:25Z",
+            "createdOn": "2020-07-26T19:22:09Z",
+            "workspace": {
+                "id": 1,
+                "name": "Intel",
+                "teamId": "T014YSGR936",
+                "appId": "A014TU1UJ94"
+            },
+            "severity": {
+                "id": 2,
+                "name": "SEV-1",
+                "emoji": ":one:",
+                "description": "Service outage or degradation that impacts customers.",
+                "sortOrder": 1
+            },
+            "participants": [
+                {
+                    "user": {
+                        "id": "e991194b-3bc6-43f2-84dd-50819b3f4c4d",
+                        "realName": "Gordon Moore",
+                        "avatarUrl": "https://secure.gravatar.com/avatar/476be6a12a76114699ceeedc6475370f.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0023-72.png",
+                        "chatUserId": "U014RA28GRK"
+                    },
+                    "role": {
+                        "id": 1,
+                        "name": "Incident Commander",
+                        "description": "The primary decision maker for the incident, listening to hypotheses and data presented by participants and delegating actions."
+                    }
+                }
+            ]
+        },
+        {
+            "id": 13,
+            "name": "Automated test incident B9UHDW",
+            "incidentStatusId": "RESOLVED",
+            "impact": null,
+            "summary": null,
+            "duration": 2324803,
+            "resolution": null,
+            "channelId": "C0163J7S8QM",
+            "channelName": "-incident-20200626-automated-test-incident-b9uhdw",
+            "channelPrivate": false,
+            "identifiedOn": null,
+            "mitigatedOn": null,
+            "resolvedOn": null,
+            "createdOn": "2020-07-26T19:21:57Z",
+            "workspace": {
+                "id": 1,
+                "name": "Intel",
+                "teamId": "T014YSGR936",
+                "appId": "A014TU1UJ94"
+            },
+            "severity": {
+                "id": 2,
+                "name": "SEV-1",
+                "emoji": ":one:",
+                "description": "Service outage or degradation that impacts customers.",
+                "sortOrder": 1
+            },
+            "participants": [
+                {
+                    "user": {
+                        "id": "e991194b-3bc6-43f2-84dd-50819b3f4c4d",
+                        "realName": "Gordon Moore",
+                        "avatarUrl": "https://secure.gravatar.com/avatar/476be6a12a76114699ceeedc6475370f.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0023-72.png",
+                        "chatUserId": "U014RA28GRK"
+                    },
+                    "role": {
+                        "id": 1,
+                        "name": "Incident Commander",
+                        "description": "The primary decision maker for the incident, listening to hypotheses and data presented by participants and delegating actions."
+                    }
+                }
+            ]
+        },
+        {
+            "id": 12,
+            "name": "Automated test incident 53GIUR (Edited)",
+            "incidentStatusId": "RESOLVED",
+            "impact": null,
+            "summary": null,
+            "duration": 2324816,
+            "resolution": null,
+            "channelId": "C015Y7T71PY",
+            "channelName": "-incident-20200626-automated-test-incident-53giur",
+            "channelPrivate": false,
+            "identifiedOn": null,
+            "mitigatedOn": null,
+            "resolvedOn": null,
+            "createdOn": "2020-07-26T19:21:44Z",
+            "workspace": {
+                "id": 1,
+                "name": "Intel",
+                "teamId": "T014YSGR936",
+                "appId": "A014TU1UJ94"
+            },
+            "severity": {
+                "id": 2,
+                "name": "SEV-1",
+                "emoji": ":one:",
+                "description": "Service outage or degradation that impacts customers.",
+                "sortOrder": 1
+            },
+            "participants": [
+                {
+                    "user": {
+                        "id": "e991194b-3bc6-43f2-84dd-50819b3f4c4d",
+                        "realName": "Gordon Moore",
+                        "avatarUrl": "https://secure.gravatar.com/avatar/476be6a12a76114699ceeedc6475370f.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0023-72.png",
+                        "chatUserId": "U014RA28GRK"
+                    },
+                    "role": null
+                }
+            ]
+        },
+        {
+            "id": 11,
+            "name": "Automated test incident 4UMM08",
+            "incidentStatusId": "RESOLVED",
+            "impact": null,
+            "summary": null,
+            "duration": 2324835,
+            "resolution": null,
+            "channelId": "C015Q7GJPBR",
+            "channelName": "-incident-20200626-automated-test-incident-4umm08",
+            "channelPrivate": false,
+            "identifiedOn": null,
+            "mitigatedOn": null,
+            "resolvedOn": null,
+            "createdOn": "2020-07-26T19:21:25Z",
+            "workspace": {
+                "id": 1,
+                "name": "Intel",
+                "teamId": "T014YSGR936",
+                "appId": "A014TU1UJ94"
+            },
+            "severity": {
+                "id": 2,
+                "name": "SEV-1",
+                "emoji": ":one:",
+                "description": "Service outage or degradation that impacts customers.",
+                "sortOrder": 1
+            },
+            "participants": [
+                {
+                    "user": {
+                        "id": "e991194b-3bc6-43f2-84dd-50819b3f4c4d",
+                        "realName": "Gordon Moore",
+                        "avatarUrl": "https://secure.gravatar.com/avatar/476be6a12a76114699ceeedc6475370f.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0023-72.png",
+                        "chatUserId": "U014RA28GRK"
+                    },
+                    "role": null
+                }
+            ]
+        },
+        {
+            "id": 10,
+            "name": "Automated test incident 3JJ313",
+            "incidentStatusId": "RESOLVED",
+            "impact": null,
+            "summary": null,
+            "duration": 2324850,
+            "resolution": null,
+            "channelId": "C016HJ902SD",
+            "channelName": "-incident-20200626-automated-test-incident-3jj313",
+            "channelPrivate": false,
+            "identifiedOn": null,
+            "mitigatedOn": null,
+            "resolvedOn": null,
+            "createdOn": "2020-07-26T19:21:10Z",
+            "workspace": {
+                "id": 1,
+                "name": "Intel",
+                "teamId": "T014YSGR936",
+                "appId": "A014TU1UJ94"
+            },
+            "severity": {
+                "id": 2,
+                "name": "SEV-1",
+                "emoji": ":one:",
+                "description": "Service outage or degradation that impacts customers.",
+                "sortOrder": 1
+            },
+            "participants": [
+                {
+                    "user": {
+                        "id": "e991194b-3bc6-43f2-84dd-50819b3f4c4d",
+                        "realName": "Gordon Moore",
+                        "avatarUrl": "https://secure.gravatar.com/avatar/476be6a12a76114699ceeedc6475370f.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0023-72.png",
+                        "chatUserId": "U014RA28GRK"
+                    },
+                    "role": {
+                        "id": 4,
+                        "name": "Watcher",
+                        "description": "Team member with knowledge or guidance that might contribute to resolution, but is not available to actively investigate or carry-out mitigative actions."
+                    }
+                }
+            ]
+        },
+        {
+            "id": 9,
+            "name": "Automated test incident 8P7NL8",
+            "incidentStatusId": "RESOLVED",
+            "impact": null,
+            "summary": null,
+            "duration": 2324867,
+            "resolution": null,
+            "channelId": "C016560JMJ7",
+            "channelName": "-incident-20200626-automated-test-incident-8p7nl8",
+            "channelPrivate": false,
+            "identifiedOn": null,
+            "mitigatedOn": null,
+            "resolvedOn": null,
+            "createdOn": "2020-07-26T19:20:53Z",
+            "workspace": {
+                "id": 1,
+                "name": "Intel",
+                "teamId": "T014YSGR936",
+                "appId": "A014TU1UJ94"
+            },
+            "severity": {
+                "id": 2,
+                "name": "SEV-1",
+                "emoji": ":one:",
+                "description": "Service outage or degradation that impacts customers.",
+                "sortOrder": 1
+            },
+            "participants": [
+                {
+                    "user": {
+                        "id": "e991194b-3bc6-43f2-84dd-50819b3f4c4d",
+                        "realName": "Gordon Moore",
+                        "avatarUrl": "https://secure.gravatar.com/avatar/476be6a12a76114699ceeedc6475370f.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0023-72.png",
+                        "chatUserId": "U014RA28GRK"
+                    },
+                    "role": {
+                        "id": 1,
+                        "name": "Incident Commander",
+                        "description": "The primary decision maker for the incident, listening to hypotheses and data presented by participants and delegating actions."
+                    }
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "name": "Automated test incident 3DHV54",
+            "incidentStatusId": "RESOLVED",
+            "impact": null,
+            "summary": null,
+            "duration": 2341707,
+            "resolution": null,
+            "channelId": "C016U4WCA8Y",
+            "channelName": "-incident-20200626-automated-test-incident-3dhv54",
+            "channelPrivate": false,
+            "identifiedOn": null,
+            "mitigatedOn": null,
+            "resolvedOn": null,
+            "createdOn": "2020-07-26T14:40:13Z",
+            "workspace": {
+                "id": 1,
+                "name": "Intel",
+                "teamId": "T014YSGR936",
+                "appId": "A014TU1UJ94"
+            },
+            "severity": {
+                "id": 2,
+                "name": "SEV-1",
+                "emoji": ":one:",
+                "description": "Service outage or degradation that impacts customers.",
+                "sortOrder": 1
+            },
+            "participants": [
+                {
+                    "user": {
+                        "id": "e991194b-3bc6-43f2-84dd-50819b3f4c4d",
+                        "realName": "Gordon Moore",
+                        "avatarUrl": "https://secure.gravatar.com/avatar/476be6a12a76114699ceeedc6475370f.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0023-72.png",
+                        "chatUserId": "U014RA28GRK"
+                    },
+                    "role": null
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "name": "Automated test incident EIX450",
+            "incidentStatusId": "RESOLVED",
+            "impact": null,
+            "summary": null,
+            "duration": 5,
+            "resolution": null,
+            "channelId": "C015PH95287",
+            "channelName": "-incident-20200626-automated-test-incident-eix450",
+            "channelPrivate": false,
+            "identifiedOn": null,
+            "mitigatedOn": null,
+            "resolvedOn": "2020-07-26T14:40:05Z",
+            "createdOn": "2020-07-26T14:40:00Z",
+            "workspace": {
+                "id": 1,
+                "name": "Intel",
+                "teamId": "T014YSGR936",
+                "appId": "A014TU1UJ94"
+            },
+            "severity": {
+                "id": 2,
+                "name": "SEV-1",
+                "emoji": ":one:",
+                "description": "Service outage or degradation that impacts customers.",
+                "sortOrder": 1
+            },
+            "participants": [
+                {
+                    "user": {
+                        "id": "e991194b-3bc6-43f2-84dd-50819b3f4c4d",
+                        "realName": "Gordon Moore",
+                        "avatarUrl": "https://secure.gravatar.com/avatar/476be6a12a76114699ceeedc6475370f.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0023-72.png",
+                        "chatUserId": "U014RA28GRK"
+                    },
+                    "role": null
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "name": "Automated test incident BAKDQU",
+            "incidentStatusId": "RESOLVED",
+            "impact": null,
+            "summary": null,
+            "duration": 2341734,
+            "resolution": null,
+            "channelId": "C01649P4CCS",
+            "channelName": "-incident-20200626-automated-test-incident-bakdqu",
+            "channelPrivate": false,
+            "identifiedOn": null,
+            "mitigatedOn": null,
+            "resolvedOn": null,
+            "createdOn": "2020-07-26T14:39:46Z",
+            "workspace": {
+                "id": 1,
+                "name": "Intel",
+                "teamId": "T014YSGR936",
+                "appId": "A014TU1UJ94"
+            },
+            "severity": {
+                "id": 2,
+                "name": "SEV-1",
+                "emoji": ":one:",
+                "description": "Service outage or degradation that impacts customers.",
+                "sortOrder": 1
+            },
+            "participants": [
+                {
+                    "user": {
+                        "id": "e991194b-3bc6-43f2-84dd-50819b3f4c4d",
+                        "realName": "Gordon Moore",
+                        "avatarUrl": "https://secure.gravatar.com/avatar/476be6a12a76114699ceeedc6475370f.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0023-72.png",
+                        "chatUserId": "U014RA28GRK"
+                    },
+                    "role": {
+                        "id": 1,
+                        "name": "Incident Commander",
+                        "description": "The primary decision maker for the incident, listening to hypotheses and data presented by participants and delegating actions."
+                    }
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "name": "Automated test incident GB9LIS",
+            "incidentStatusId": "RESOLVED",
+            "impact": null,
+            "summary": null,
+            "duration": 2341747,
+            "resolution": null,
+            "channelId": "C016AEYMYN8",
+            "channelName": "-incident-20200626-automated-test-incident-gb9lis",
+            "channelPrivate": false,
+            "identifiedOn": null,
+            "mitigatedOn": null,
+            "resolvedOn": null,
+            "createdOn": "2020-07-26T14:39:33Z",
+            "workspace": {
+                "id": 1,
+                "name": "Intel",
+                "teamId": "T014YSGR936",
+                "appId": "A014TU1UJ94"
+            },
+            "severity": {
+                "id": 2,
+                "name": "SEV-1",
+                "emoji": ":one:",
+                "description": "Service outage or degradation that impacts customers.",
+                "sortOrder": 1
+            },
+            "participants": [
+                {
+                    "user": {
+                        "id": "e991194b-3bc6-43f2-84dd-50819b3f4c4d",
+                        "realName": "Gordon Moore",
+                        "avatarUrl": "https://secure.gravatar.com/avatar/476be6a12a76114699ceeedc6475370f.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0023-72.png",
+                        "chatUserId": "U014RA28GRK"
+                    },
+                    "role": {
+                        "id": 1,
+                        "name": "Incident Commander",
+                        "description": "The primary decision maker for the incident, listening to hypotheses and data presented by participants and delegating actions."
+                    }
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "name": "Automated test incident AIXAJ9 (Edited)",
+            "incidentStatusId": "RESOLVED",
+            "impact": null,
+            "summary": null,
+            "duration": 2341761,
+            "resolution": null,
+            "channelId": "C016GU06TMF",
+            "channelName": "-incident-20200626-automated-test-incident-aixaj9",
+            "channelPrivate": false,
+            "identifiedOn": null,
+            "mitigatedOn": null,
+            "resolvedOn": null,
+            "createdOn": "2020-07-26T14:39:19Z",
+            "workspace": {
+                "id": 1,
+                "name": "Intel",
+                "teamId": "T014YSGR936",
+                "appId": "A014TU1UJ94"
+            },
+            "severity": {
+                "id": 2,
+                "name": "SEV-1",
+                "emoji": ":one:",
+                "description": "Service outage or degradation that impacts customers.",
+                "sortOrder": 1
+            },
+            "participants": [
+                {
+                    "user": {
+                        "id": "e991194b-3bc6-43f2-84dd-50819b3f4c4d",
+                        "realName": "Gordon Moore",
+                        "avatarUrl": "https://secure.gravatar.com/avatar/476be6a12a76114699ceeedc6475370f.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0023-72.png",
+                        "chatUserId": "U014RA28GRK"
+                    },
+                    "role": null
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "name": "Automated test incident 77WVBQ",
+            "incidentStatusId": "RESOLVED",
+            "impact": null,
+            "summary": null,
+            "duration": 2341782,
+            "resolution": null,
+            "channelId": "C015XHGGSES",
+            "channelName": "-incident-20200626-automated-test-incident-77wvbq",
+            "channelPrivate": false,
+            "identifiedOn": null,
+            "mitigatedOn": null,
+            "resolvedOn": null,
+            "createdOn": "2020-07-26T14:38:58Z",
+            "workspace": {
+                "id": 1,
+                "name": "Intel",
+                "teamId": "T014YSGR936",
+                "appId": "A014TU1UJ94"
+            },
+            "severity": {
+                "id": 2,
+                "name": "SEV-1",
+                "emoji": ":one:",
+                "description": "Service outage or degradation that impacts customers.",
+                "sortOrder": 1
+            },
+            "participants": [
+                {
+                    "user": {
+                        "id": "e991194b-3bc6-43f2-84dd-50819b3f4c4d",
+                        "realName": "Gordon Moore",
+                        "avatarUrl": "https://secure.gravatar.com/avatar/476be6a12a76114699ceeedc6475370f.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0023-72.png",
+                        "chatUserId": "U014RA28GRK"
+                    },
+                    "role": null
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Automated test incident COKUBI",
+            "incidentStatusId": "RESOLVED",
+            "impact": null,
+            "summary": null,
+            "duration": 2341798,
+            "resolution": null,
+            "channelId": "C016GTYN84R",
+            "channelName": "-incident-20200626-automated-test-incident-cokubi",
+            "channelPrivate": false,
+            "identifiedOn": null,
+            "mitigatedOn": null,
+            "resolvedOn": null,
+            "createdOn": "2020-07-26T14:38:42Z",
+            "workspace": {
+                "id": 1,
+                "name": "Intel",
+                "teamId": "T014YSGR936",
+                "appId": "A014TU1UJ94"
+            },
+            "severity": {
+                "id": 2,
+                "name": "SEV-1",
+                "emoji": ":one:",
+                "description": "Service outage or degradation that impacts customers.",
+                "sortOrder": 1
+            },
+            "participants": [
+                {
+                    "user": {
+                        "id": "e991194b-3bc6-43f2-84dd-50819b3f4c4d",
+                        "realName": "Gordon Moore",
+                        "avatarUrl": "https://secure.gravatar.com/avatar/476be6a12a76114699ceeedc6475370f.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0023-72.png",
+                        "chatUserId": "U014RA28GRK"
+                    },
+                    "role": {
+                        "id": 4,
+                        "name": "Watcher",
+                        "description": "Team member with knowledge or guidance that might contribute to resolution, but is not available to actively investigate or carry-out mitigative actions."
+                    }
+                }
+            ]
+        },
+        {
+            "id": 1,
+            "name": "Automated test incident 2PU4H6",
+            "incidentStatusId": "RESOLVED",
+            "impact": null,
+            "summary": null,
+            "duration": 2341815,
+            "resolution": null,
+            "channelId": "C016U4RTDFS",
+            "channelName": "-incident-20200626-automated-test-incident-2pu4h6",
+            "channelPrivate": false,
+            "identifiedOn": null,
+            "mitigatedOn": null,
+            "resolvedOn": null,
+            "createdOn": "2020-07-26T14:38:25Z",
+            "workspace": {
+                "id": 1,
+                "name": "Intel",
+                "teamId": "T014YSGR936",
+                "appId": "A014TU1UJ94"
+            },
+            "severity": {
+                "id": 2,
+                "name": "SEV-1",
+                "emoji": ":one:",
+                "description": "Service outage or degradation that impacts customers.",
+                "sortOrder": 1
+            },
+            "participants": [
+                {
+                    "user": {
+                        "id": "e991194b-3bc6-43f2-84dd-50819b3f4c4d",
+                        "realName": "Gordon Moore",
+                        "avatarUrl": "https://secure.gravatar.com/avatar/476be6a12a76114699ceeedc6475370f.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0023-72.png",
+                        "chatUserId": "U014RA28GRK"
+                    },
+                    "role": {
+                        "id": 1,
+                        "name": "Incident Commander",
+                        "description": "The primary decision maker for the incident, listening to hypotheses and data presented by participants and delegating actions."
+                    }
+                }
+            ]
+        }
+    ]
+}

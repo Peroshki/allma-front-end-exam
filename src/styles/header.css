@@ -1,0 +1,27 @@
+.mainContainer {
+    width: 100%; 
+    top: 0; 
+    position: fixed; 
+    background: rgb(180, 180, 180); 
+    z-index: 100;
+}
+
+table {
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 15px; 
+}
+
+td {
+    margin: auto;
+    width: 33%;
+}
+
+label {
+    margin-left: 5px;
+    margin-right: 15px;
+}
+
+span {
+    margin-right: 5px;
+}
