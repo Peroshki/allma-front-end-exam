@@ -6,6 +6,7 @@ import ListGroupItem from 'react-bootstrap/ListGroupItem';
 
 interface CardProps {
     name: string,
+    summary: string,
     severity: string,
     incidentCommander: string,
     channelName: string,
@@ -15,13 +16,14 @@ interface CardProps {
     status: string
 }
 
-export default function IncidentCard({ name, severity, incidentCommander, channelName, channelLink, createdOn, duration, status }: CardProps) {
+export default function IncidentCard({ name, severity, summary, incidentCommander, channelName, channelLink, createdOn, duration, status }: CardProps) {
     return (
         <Card style={{ color: "#000" }} className="mx-auto">
             <Card.Body>
                 <Card.Title>{name}</Card.Title>
             </Card.Body>
             <ListGroup>
+                <ListGroupItem>Summary: {summary}</ListGroupItem>
                 <ListGroupItem>Severity: {severity}</ListGroupItem>
                 <ListGroupItem>Incident Commander: {incidentCommander}</ListGroupItem>
                 <ListGroupItem>Channel: <a href={channelLink}>{channelName}</a></ListGroupItem>
