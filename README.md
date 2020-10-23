@@ -2,9 +2,15 @@
 
 To run this application, navigate to the project directory and run:
 
+### `npm install`
+
+to install all the necessary prerequisites for the application to run. Then, run:
+
 ### `npm start`
 
-Then open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+and open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+
+<br/>
 
 You can also run this application in a Docker container. To do so, open a command prompt window (MacOS) or launch the Docker terminal (Windows), navigate to the project directory and build the docker image using
 
