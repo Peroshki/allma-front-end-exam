@@ -4,7 +4,7 @@ To run this application, navigate to the project directory and run:
 
 ### `npm install`
 
-to install all the necessary prerequisites for the application to run. Then, run:
+to install all the prerequisites that are necessary for the application to run. Then, run:
 
 ### `npm start`
 
