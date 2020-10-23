@@ -18,7 +18,7 @@ Finally, run the containerized application by running
 
 ### `docker run -p 4000:3000 -it react-app`
 
-and navigate to **http://\<docker-machine-ip\>:4000** to view it in the broswer. As an example, if your Docker machine's IP address is **192.168.99.100**, then you would navigate to  [http://192.168.99.100:4000](http://192.168.99.100:4000) to view the application.
+and navigate to **http://\<docker-machine-ip\>:4000** to view it in the broswer. For example, if your Docker machine's IP address is **192.168.99.100**, then you would navigate to  [http://192.168.99.100:4000](http://192.168.99.100:4000) to view the application.
 
 ## Usage
 
