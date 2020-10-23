@@ -1,9 +1,12 @@
 import React from 'react';
-import {convertSecondsToDateString} from '../services/Helpers';
+
 import '../styles/header.css';
+import {convertSecondsToDateString} from '../services/Helpers';
+
 
 let statusFilter: string[] = [];
 
+// Add or remove a status ID filter.
 function changeStatusFilter(status: string) {
     if (statusFilter.includes(status)) {
         let index: number = statusFilter.indexOf(status);
@@ -26,46 +29,43 @@ interface HeaderProps {
 
 export default function Header({ openIncidents, recentIncidents, recentIncidentLimit, resolvedIncidents, 
     resolvedTime, statusIds, updateStatusFilter, updateSearchFilter }: HeaderProps) {
+    
+    // Calculate the average time to resolve an incident.
     let resolvedMeanTime: number = Math.ceil(resolvedTime / resolvedIncidents);
 
     return (
-        <div className='mainContainer'>
-            <table>
-                <tbody>
-                    <tr>
-                        <td>
-                            Open Incidents: <br/> {openIncidents}
-                        </td>
-                        <td>
-                            Recent Incidents (within {recentIncidentLimit} days): <br/> {recentIncidents}
-                        </td>
-                        <td>
-                            Mean Time to Resolution: <br/> {convertSecondsToDateString(resolvedMeanTime)}
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
-            <table>
-                <tbody>
-                    <tr>
-                        <td>
-                            {statusIds.map((status) => {
-                                return(
-                                    <div key={status}>
-                                        <input type="checkbox" value={status} defaultChecked={true}
-                                        onClick={() => {changeStatusFilter(status); updateStatusFilter(statusFilter)}}/>
-                                        <label htmlFor="vehicle1"> {status}</label>    
-                                    </div>
-                                )
-                            })}
-                        </td>
-                        <td>
-                            <span>Search:</span> 
-                            <input onChange={(event) => updateSearchFilter(event.target.value)}/>
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
+        <div className='headerContainer'>
+            <div className="tableContainer">
+                <table>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <span>Search:</span> 
+                                <input onChange={(event) => updateSearchFilter(event.target.value)}/>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div className="roundBorder">
+                                    <span>Status ID:</span>
+                                    {statusIds.map((status) => {
+                                        return(
+                                            <div key={status}>
+                                                <input type="checkbox" value={status} defaultChecked={true}
+                                                onClick={() => {changeStatusFilter(status); updateStatusFilter(statusFilter)}}/>
+                                                <label> {status}</label>    
+                                            </div>
+                                        )
+                                    })}
+                                </div>
+                            </td>
+                        </tr>
+                        <tr> <td> <div className="roundBorder"> Open Incidents: <br/> {openIncidents} </div> </td> </tr>
+                        <tr> <td> <div className="roundBorder"> Recent Incidents (within {recentIncidentLimit} days): <br/> {recentIncidents} </div> </td> </tr>
+                        <tr> <td> <div className="roundBorder"> Mean Time to Resolution: <br/> {convertSecondsToDateString(resolvedMeanTime)} </div> </td> </tr>
+                    </tbody>
+                </table>
+            </div>
         </div>
     )
 }

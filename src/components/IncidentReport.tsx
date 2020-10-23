@@ -1,12 +1,13 @@
 import React, { Component } from 'react';
 
-import data from '../data/incidents.json';
-import {convertSecondsToDateString} from '../services/Helpers';
-
+import '../styles/incidentreport.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import {convertSecondsToDateString} from '../services/Helpers';
 import CardColumns from 'react-bootstrap/CardColumns';
-import IncidentCard from './IncidentCard';
+import data from '../data/incidents.json';
 import Header from './Header';
+import IncidentCard from './IncidentCard';
+
 
 const currentDate: Date = new Date(Date.now());
 const recentIncidentDays: number = 30;
@@ -27,6 +28,8 @@ export default class IncidentReport extends Component <{},
         this.updateStatusFilter = this.updateStatusFilter.bind(this);
         this.updateSearchFilter = this.updateSearchFilter.bind(this);
 
+        // Calculate the number of open, resolved and recent incidents
+        // as well as the total amount of time spent resolving incidents
         data.incidents.map((incident) => {
             const incidentCreatedOn: Date = new Date(incident.createdOn);
             const diffTime: number = (currentDate.getTime() - incidentCreatedOn.getTime());
@@ -68,12 +71,15 @@ export default class IncidentReport extends Component <{},
     }
 
     render() {
+        // Filter incidents by selected status IDs
         let incidents: any = data.incidents.filter((incident: any) => !this.state.statusFilters.includes(incident.incidentStatusId));
+        
+        // Filter incidents against search bar text
         incidents = incidents.filter((incident: any) => incident.name.toLowerCase().includes(this.state.searchFilter) || 
             (incident.summary && incident.summary.toLowerCase().includes(this.state.searchFilter)));
 
         return (
-            <div>
+            <div className="irContainer">
                 <Header
                     openIncidents={this.state.openIncidents}
                     recentIncidents={this.state.recentIncidents}
@@ -84,13 +90,19 @@ export default class IncidentReport extends Component <{},
                     updateStatusFilter={this.updateStatusFilter}
                     updateSearchFilter={this.updateSearchFilter}
                 />
-                <CardColumns style={{ paddingTop: `${100 + (this.statusIds.length * 40)}px` }}>
+                <CardColumns className="cardColumns">
                     {incidents.map((incident: any) => {
                         const incidentSummary: string = incident.summary ? incident.summary : "None";
                         const incidentSeverity: string = incident.severity ? incident.severity.name : "N/A";
+
+                        // Filter users who have a role ID of 1 and find the 
+                        // incident commander from this filtered list, if there is any
                         const incidentCommanderQuery: any[] = incident.participants.filter( (user: any) => user.role && user.role.id === 1 );
                         const incidentCommanderName: string = incidentCommanderQuery.length > 0 ? incidentCommanderQuery[0].user.realName : "None";
+                        
+                        // Create a deep link to Slack
                         const incidentChannelLink: string = `slack://channel?team=${incident.workspace.teamId}&id=${incident.channelId}`;
+                        
                         const incidentCreatedOn: Date = new Date(incident.createdOn);
                         const incidentDuration: string = convertSecondsToDateString(incident.duration);
 

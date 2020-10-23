@@ -1,8 +1,10 @@
 import React from 'react';
 
+import "../styles/incidentcard.css"
 import Card from 'react-bootstrap/Card';
 import ListGroup from 'react-bootstrap/ListGroup';
 import ListGroupItem from 'react-bootstrap/ListGroupItem';
+
 
 interface CardProps {
     name: string,
@@ -18,7 +20,7 @@ interface CardProps {
 
 export default function IncidentCard({ name, severity, summary, incidentCommander, channelName, channelLink, createdOn, duration, status }: CardProps) {
     return (
-        <Card style={{ color: "#000" }} className="mx-auto">
+        <Card className="card mx-auto">
             <Card.Body>
                 <Card.Title>{name}</Card.Title>
             </Card.Body>
