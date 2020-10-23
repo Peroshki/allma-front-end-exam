@@ -28,7 +28,7 @@ and navigate to **http://\<docker-machine-ip\>:4000** to view it in the broswer.
 
 ## Usage
 
-When you open the application in your broswer, you will notice that the page is split into two columns. The left column contains the search bar and filter options, while the right column contains the incident report cards, as well as some summary statistics.
+When you open the application in your broswer, you will notice that the page is split into two columns. The right column contains the incident report cards, and the left column contains the search bar and filter options as well as some summary statistics.
 
 Use the search bar to filter incidents by their name or summary description. You can also use the checkboxes below the search bar to filter incidents by their status ID.
 
