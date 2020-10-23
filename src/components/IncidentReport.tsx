@@ -10,7 +10,7 @@ import IncidentCard from './IncidentCard';
 
 
 const currentDate: Date = new Date(Date.now());
-const recentIncidentDays: number = 30;
+const recentIncidentDays: number = 30; // The maximum number of days for an incident to be considered recent
 
 export default class IncidentReport extends Component <{}, 
     { openIncidents: number, recentIncidents: number, resolvedIncidents: number, 
@@ -74,7 +74,7 @@ export default class IncidentReport extends Component <{},
         // Filter incidents by selected status IDs
         let incidents: any = data.incidents.filter((incident: any) => !this.state.statusFilters.includes(incident.incidentStatusId));
         
-        // Filter incidents against search bar text
+        // Filter incidents by name and summary using search bar text
         incidents = incidents.filter((incident: any) => incident.name.toLowerCase().includes(this.state.searchFilter) || 
             (incident.summary && incident.summary.toLowerCase().includes(this.state.searchFilter)));
 
