@@ -99,6 +99,7 @@ export default class IncidentReport extends Component <{},
                         // incident commander from this filtered list, if there is any
                         const incidentCommanderQuery: any[] = incident.participants.filter( (user: any) => user.role && user.role.id === 1 );
                         const incidentCommanderName: string = incidentCommanderQuery.length > 0 ? incidentCommanderQuery[0].user.realName : "None";
+                        const incidentCommanderImg: string = incidentCommanderQuery.length > 0 ? incidentCommanderQuery[0].user.avatarUrl : "";
                         
                         // Create a deep link to Slack
                         const incidentChannelLink: string = `slack://channel?team=${incident.workspace.teamId}&id=${incident.channelId}`;
@@ -112,6 +113,7 @@ export default class IncidentReport extends Component <{},
                             summary={incidentSummary}
                             severity={incidentSeverity}
                             incidentCommander={incidentCommanderName}
+                            incidentCommanderAvatar={incidentCommanderImg}
                             channelName={incident.channelName}
                             channelLink={incidentChannelLink}
                             createdOn={incidentCreatedOn.toLocaleString()}

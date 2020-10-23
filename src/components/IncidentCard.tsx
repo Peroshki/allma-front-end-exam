@@ -11,6 +11,7 @@ interface CardProps {
     summary: string,
     severity: string,
     incidentCommander: string,
+    incidentCommanderAvatar: string,
     channelName: string,
     channelLink: string,
     createdOn: string,
@@ -18,7 +19,7 @@ interface CardProps {
     status: string
 }
 
-export default function IncidentCard({ name, severity, summary, incidentCommander, channelName, channelLink, createdOn, duration, status }: CardProps) {
+export default function IncidentCard({ name, severity, summary, incidentCommander, incidentCommanderAvatar, channelName, channelLink, createdOn, duration, status }: CardProps) {
     return (
         <Card className="card mx-auto">
             <Card.Body>
@@ -27,7 +28,7 @@ export default function IncidentCard({ name, severity, summary, incidentCommande
             <ListGroup>
                 <ListGroupItem>Summary: {summary}</ListGroupItem>
                 <ListGroupItem>Severity: {severity}</ListGroupItem>
-                <ListGroupItem>Incident Commander: {incidentCommander}</ListGroupItem>
+                <ListGroupItem>Incident Commander: {incidentCommander} <img src={incidentCommanderAvatar}/></ListGroupItem>
                 <ListGroupItem>Channel: <a href={channelLink}>{channelName}</a></ListGroupItem>
                 <ListGroupItem>Created On: {createdOn}</ListGroupItem>
                 <ListGroupItem>Duration: {duration}</ListGroupItem>
